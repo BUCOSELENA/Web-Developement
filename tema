@@ -1,0 +1,73 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title> Pagina mea</title>
+		<style>
+		.patrat{
+			width:200px;
+			height:200px;
+			color:black;
+			border:5px solid red;
+			margin:10px;
+			float:left;
+		}
+		#patrat1{
+			background:purple;
+			text-align:center;
+			font-size:70px;
+		}
+		.patrat1-1{
+			width:60px;
+			height:60px;
+			background:yellow;
+			font-size:40px;
+			text-align:center;
+			margin-left:68px;
+			margin-top:68px;	
+		}
+		#patrat2{
+			background:aqua;
+			font-size:50px;
+			text-align:center;
+			margin-bottom:10px;
+			border-radius:20px;
+			line-height:180px;
+		}
+		#patrat3{
+			background:orange;
+			font-size:100px;
+			margin-bottom:60px;
+			line-height:160px;
+			text-align:center;
+		}
+		#patrat4{
+			background:black;
+			color:white;
+			font-size:50px;
+			line-height:150px;
+			text-align:center;
+		}
+		#patrat5{
+			background:brown;
+			font-size:70px;
+			line-height:155px;
+			text-align:center;
+			transform:rotate(-50deg);
+			border:10px solid blue;
+			margin-left:75px;
+		}
+	
+		</style>
+	</head>
+		
+	<body>
+		<div class="patrat" id="patrat1">
+			<div class="patrat1-1">1</div>
+		</div>
+		<div class="patrat" id="patrat2">2</div>
+		<div class="patrat" id="patrat3">3</div>
+		<div class="patrat" id="patrat4">4</div>
+		<div class="patrat" id="patrat5">5</div>
+	
+	</body>
+<html/>
