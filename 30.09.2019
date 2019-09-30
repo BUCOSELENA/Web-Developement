@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> pagina1</title>
+		</head>
+            <style>
+                /*conteaza ultimul selector citit*/
+                 /*selectorul mai specific castiga*/
+                ul{
+                    font-size: 0;
+                    padding: 0;
+                    margin: 0;
+                }
+              body  ul li{
+                    display: inline-block;
+                    list-style-type: none;
+                    background: orange;
+                    width: 150px;
+                    height: 50px;
+                    text-align: center;
+                    line-height: 50px;
+                    font-size: 14px;
+    
+                  
+                }
+                body  ul li:hover {
+                    background:black;
+                    color:white;
+                    
+                }
+                ul li{
+                    list-style-type: hebrew !important;
+                }
+                .selected{
+                    background: black;
+                    color:white;
+                        
+                }
+                 .selected{
+                     color:red;
+                }
+                        
+                span{
+                    display: :inline-block;
+                    width: 100px;
+                    background: red;
+                }
+                p{
+                    width: 100px;
+                    background: red;
+                }
+                li a{
+                    display: inline-block;
+                    width: inherit;
+                    height: inherit;
+                }
+            </style>
+        
+		<body>
+         <!---comntariu-->
+            <span>span1</span>
+            <span>span2</span>
+            <p>paragraf2</p>
+            <p>paragraf2</p>
+        <ul>
+            <li class="selected"><a href="exercitiu.html">pagina1</a></li>  
+            <li ><a href="exercitiu 2.html">pagina2</a></li>  
+            <li ><a href="exercitiu-3.html">pagina3</a></li> 
+        </ul>
+        <ol>
+          <li >pagina1</li>  
+          <li>pagina2</li>  
+          <li>pagina3</li>  
+        </ol>
+		</body>
+	</html>
